@@ -1,0 +1,100 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mini Quiz! @fturudu</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- top section -->
+    <div class="intro py-3 bg-white text-center">
+      <div class="container">
+        <h2 class="text-primary display-3 my-4">Mini Quiz! @fturudu</h2>
+      </div>
+    </div>
+
+    <!-- result section -->
+    <div class="result py-4 d-none bg-light text-center">
+      <div class="container lead">
+        <p>Sen sorulara göre<span class="text-primary display-4 p-3"></span> Kod bilgisine sahipsin.</p>
+      </div>
+    </div>
+
+    <!-- quiz section -->
+    <div class="quiz py-4 bg-primary">
+      <div class="container">
+        <h2 class="my-5 text-white">O zaman sorularımıza başlayalım...</h2>
+
+        <form class="quiz-form text-light">
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              1. HTML'de "br" komutu ne işe yarar?
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="A" checked />
+              <label class="form-check-label">Bir satır aşşağıya kaydırmaya yarar.</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="B" />
+              <label class="form-check-label">Komut sonunda kullanılır komutu bitirir.</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              2. HTML'de "h1" komutu ne işe yarar?
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q2" value="A" checked />
+              <label class="form-check-label">Metin'e renk verir.</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q2" value="B" />
+              <label class="form-check-label"
+                >En büyük başlığı yazar.</label
+              >
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              3. PHP'de "\r" komutu ne işe yarar? 
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q3" value="A" />
+              <label class="form-check-label">Kodun yeni satırda devam etmesine yarar..</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q3" value="B" checked />
+              <label class="form-check-label"
+                >Yeni satır'a geçmenize yarar.</label
+              >
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              4. SQL'de "while" komutu ne işe yarar?
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q4" value="A" checked />
+              <label class="form-check-label">Kod bloğunu döngüye sokmaya yarar.</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q4" value="B" />
+              <label class="form-check-label">Veritabanında aradığınız veriyi bulmak için sütun komutudur.</label>
+            </div>
+          </div>
+          <div class="text-center">
+            <input type="submit" class="btn btn-light" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
